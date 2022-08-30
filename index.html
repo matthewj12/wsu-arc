@@ -15,18 +15,14 @@
 			font-family: 'Roboto', sans-serif;
 		}
 
-		h1, p, ul {
-			padding: 0 150px 0;
+		body {
+			background-color: white;
 		}
 
-		h1 {
-			margin-bottom: 0;
-			padding: 0;
+		h1, p, ul {
 		}
 
 		#arc-word-art {
-			margin-left: 50%;
-			transform: translate(-50%, 0)
 		}
 
 		.italic {
@@ -34,20 +30,15 @@
 		}
 
 		h1 {
-			text-align: center;
 			font-weight: 500;
 			font-size: 2.4rem;
-			margin: 85px 0 40px;
+			margin-top: 85px;
+			margin-bottom: 40px;
 			text-decoration: underline;
 		}
 		
 		p {
-			font-size: 1.25rem;
-			width: calc(320px + 2 * 150px);
-		}
-
-		ul {
-			margin-left: 55px;
+			font-size: 1.75rem;
 		}
 
 		li {
@@ -58,7 +49,6 @@
 		.pic, .yt-vid {
 			display: inline;
 			width: 240px;
-			margin: 0 20px;
 		}
 
 		.pic {
@@ -69,21 +59,21 @@
 
 		#text-content {
 			padding: 45px 0 0 0;
-			position: absolute;
-			left: 50%;
-			transform: translate(-50%, 0);
-			background-color: rgb(215, 228, 213);
+			/* background-color: rgb(215, 228, 213); */
 			border-radius: 20px;
 		}
 
 		.imgs {
-			text-align: center;
-			padding: auto;
-			margin: 40px 0;
+			margin-top: 40px;
+			margin-bottom: 40px;
 		}
 
 		iframe {
 			margin: 10px 10px;
+		}
+
+		#yt-row {
+			margin-left: 80px;
 		}
 
 		#real-talk {
@@ -91,7 +81,6 @@
 			left: 40px;
 			right: 40px;
 			margin-top: 50px;
-			width: calc(320px + 2 * 150px - 100px);
 		}
 
 		.bold {
@@ -102,129 +91,131 @@
 			font-style: italic;
 		}
 
-		.centered {
-			text-align: center;
-		}
-
 		#qr-survey {
-			margin: 100px 50%;
-			transform: translate(-50%, 0);
-			left: 50%;
-			width: 270px;
+			margin-top: 140px;
+			margin-bottom: 140px;
+			margin-left: 280px;
 		}
-
-		a {
-			/* display: inline; */
+		
+		hr {
+			border: solid 2px gray;
 		}
 	</style>
 
 </head>
 <body>
-	<h1>
-		<span class="italic">Introducing... <span><a href="https://matthewj12.github.io/wsu-arc/">ARC: The WSU Animal Rights Club!</a></span></span>
-	</h1>
-
-	<div>
-		<img id="arc-word-art" src="https://i.imgur.com/OZIlpZX.png">
-	</div>
-
-	<div id="text-content">
-		<p>
-			Are you an animal lover? Does it pain you to see your fellow creatures suffer? Do you long for a world where all sentient beings are afforded the basic rights they deserve?
-		</p>
+	<div id="main-container">
+		<h1>
+			<span class="italic">Introducing... <span><a href="https://matthewj12.github.io/wsu-arc/">ARC: The WSU Animal Rights Club!</a></span></span>
+		</h1>
 
 		<div>
-			<div class="imgs">
-				<!-- <img class="pic" src="https://genv.org/wp-content/uploads/2021/01/Animal-Cruelty-Dog-Image-from-Pixabay-1-400x267.jpg">
+			<img id="arc-word-art" src="https://i.imgur.com/sj8wxzg.png">
+		</div>
 
-				<img class="pic" src="https://www.nhm.ac.uk/content/dam/nhmwww/discover/mammal-brain-and-body-size/shutterstock_1379323205_whale_full_width.jpg">
+		<hr>
+
+		<div id="text-content">
+			<p>
+				Are you an animal lover? Does it pain you to see your fellow creatures<br>suffer? Do you long for a world where all sentient beings are afforded<br>the basic rights they deserve?<br>
+			</p>
+
+			<div>
+				<div class="imgs">
+					<!-- <img class="pic" src="https://genv.org/wp-content/uploads/2021/01/Animal-Cruelty-Dog-Image-from-Pixabay-1-400x267.jpg">
+
+					<img class="pic" src="https://www.nhm.ac.uk/content/dam/nhmwww/discover/mammal-brain-and-body-size/shutterstock_1379323205_whale_full_width.jpg">
+					
+					<img class="pic" src="https://thumbnails.texastribune.org/77NtnLsd6Pejy91AVc9ugxEgmro=/850x570/smart/filters:quality(75)/https://static.texastribune.org/media/images/TxTrib-Cows009.JPG"> -->
+
+					<img src="https://i.imgur.com/X6W6L7M.png	" alt="">
+
+				</div>
+			</div>
+
+			<p>
+				If so, ARC may very well be your next favorite club! As a brand-new<br>organization, ARC offers the unique opportunity to help catalyze the<br>shift within our community and society toward a more<br>comprehensive, compassionate understanding of nonhuman animals<br>as the conscious agents they are. Or perhaps you're simply interested<br>in meeting some fellow animal lovers/animal rights advocates. Either<br>way, ARC will almost certainly have something to offer both for the<br>seasoned activist and open-minded inquirer alike.
+			</p>
+
+			<p>
+				Fill out the survey for available meeting times <span><a href="https://www.surveymonkey.com/r/XVZQWXX">here</a></span>. Contact<br>
 				
-				<img class="pic" src="https://thumbnails.texastribune.org/77NtnLsd6Pejy91AVc9ugxEgmro=/850x570/smart/filters:quality(75)/https://static.texastribune.org/media/images/TxTrib-Cows009.JPG"> -->
+				<span>
+					<a href="mailto:matthew.jilk@go.winona.edu">
+						matthew.jilk@go.winona.edu
+					</a>
+				</span>
 
-				<img src="https://i.imgur.com/X6W6L7M.png	" alt="">
+				or 
+				
+				<span>
+					<a href="mailto:wsuanimalrightsclub@gmail.com">
+						wsuAnimalRightsClub@gmail.com<br>
+					</a>
+				</span>
+				
+				for any questions, comments, or concerns (expect all further<br>communications to be from the latter).
+			</p>
 
+			<hr>
+
+			<div id="yt-row" class="imgs">
+				<iframe width="360" height="203" src="https://www.youtube.com/embed/dkQ0QiEsS80?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<iframe width="360" height="203" src="https://www.youtube.com/embed/av22cRQNBiQ?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+
+
+
+			<p>
+				Potential club activities include:
+				<ul>
+					<li>discussing animal-related philosophy</li>
+					<li>open discussion, personal anecdotes, getting to know each<br>other, etc.</li>
+					<li>public activism/awareness-raising</li>
+					<li>watching educational content regarding animal sentience,<br>welfare, and policy (or lack<br>thereof)</li>
+					<li>miscellaneous activities (it wouldn't be a real club without<br>the occasional individualized study hall) </li>
+				</ul>
+			</p>
+
+			<p class="italic bold centered">
+				Note: this list is by no means binding or exhaustive; seeing as ARC is<br>in its infancy, we're always open to new ideas and suggestions.<br>Nothing has been written in stone (yet!).
+			</p>
+			
+
+<hr>
+			<div class="imgs">
+				<!-- <img class="pic" style="width: 260px; height: 157px;" src="https://www.hsi.org/wp-content/uploads/2018/11/Lab-dog-PATRICK-LANDMANN-SCIENCE-PHOTO-LIBRARY-exp-feb2024-e1552324777971.jpg">
+
+				<img class="pic" style="width: 220; height: 130px" src="https://petlandbradenton.com//wp-content/uploads/2019/02/fish.jpg">
+
+				<img class="pic" src="https://www.europarl.europa.eu/resources/library/images/20210914PHT12408/20210914PHT12408_original.jpg"> -->
+
+				<img src="https://i.imgur.com/nIJZ1Z5.png" alt="">
+			</div>
+
+			<p>
+				A preliminary meetup (the first official ARC event!) will be held this<br>coming 
+
+				<span>
+					<a href="https://matthewj12.github.io/wsu-arc/meetings/arc-meeting-1-add-to-calendar.ics">
+						Friday, Sep 2, at 5 PM in Gildemeister 161
+					</a>
+				</span>
+
+				to point prospective<br>members toward the relevant resources, bounce ideas off each other, <br>and -- most importantly -- map some names to faces! The event will be<br>accessible remotely through Zoom via the link above.
+			</p>
+
+			<div>
+				<p id="real-talk" class="italic">
+					<span class="bold"> Real talk</span>: As it stands now, ARC is a cohort of three. That's<br>seven short of the required ten to become an officially<br>registered WSU organization, which would allow us to<br>secure funding, consistent meeting locations, campus<br>advertisement, and official listing as a WSU student<br>organization in the winona.edu club directory. If you're<br>genuinely captivated, even mildly, by what I just described,<br>please don't neglect to contact me and/or attend the<br>aforementioned preliminary meeting so we can formalize<br>our group before the Sep 15 deadline. If you're interested<br>in joining, do it sooner rather than later!
+				</p>
+			</div>
+
+			<div>
+				<a id="a" href="https://www.surveymonkey.com/r/XVZQWXX"><img id="qr-survey" src="https://i.imgur.com/lr6TeWs.png"></a>
 			</div>
 		</div>
-
-		<p>
-			If so, ARC may very well be your next favorite club! As a brand-new organization, ARC offers the unique opportunity to help catalyze the shift within our community and society toward a more comprehensive, compassionate understanding of nonhuman animals as the conscious agents they are. Or perhaps you're simply interested in meeting some fellow animal lovers. Either way, ARC will almost certainly have something to offer both for the seasoned animal advocate and open-minded inquirer alike.
-		</p>
-
-		<p>
-			Fill out the survey for available meeting times <span><a href="https://www.surveymonkey.com/r/XVZQWXX">here</a></span>. Contact
-			
-			<span>
-				<a href="mailto:matthew.jilk@go.winona.edu">
-					matthew.jilk@go.winona.edu
-				</a>
-			</span>
-
-			or 
-			 
-			<span>
-				<a href="mailto:wsuanimalrightsclub@gmail.com">
-					wsuAnimalRightsClub@gmail.com
-				</a>
-			</span>
-			
-			for any questions, comments, or concerns (expect all further communications to be from the latter).
-		</p>
-
-		<div class="imgs">
-			<iframe width="360" height="203" src="https://www.youtube.com/embed/dkQ0QiEsS80?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-			<iframe width="360" height="203" src="https://www.youtube.com/embed/av22cRQNBiQ?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-
-
-
-		<p>
-			Potential club activities include:
-			<ul>
-				<li>discussing animal-related philosophy</li>
-				<li>open discussion, personal anecdotes, getting to know each other, etc.</li>
-				<li>public activism/awareness-raising</li>
-				<li>watching educational content regarding animal sentience, welfare, and policy (or lack thereof)</li>
-				<li>miscellaneous activities (it wouldn't be a real club without the occasional individualized study hall) </li>
-			</ul>
-		</p>
-
-		<p class="italic bold centered">
-			Note: this list is by no means binding or exhaustive; seeing as ARC is in its infancy, we're always open to new ideas and suggestions. Nothing has been written in stone (yet!).
-		</p>
-
-		<div class="imgs">
-			<!-- <img class="pic" style="width: 260px; height: 157px;" src="https://www.hsi.org/wp-content/uploads/2018/11/Lab-dog-PATRICK-LANDMANN-SCIENCE-PHOTO-LIBRARY-exp-feb2024-e1552324777971.jpg">
-
-			<img class="pic" style="width: 220; height: 130px" src="https://petlandbradenton.com//wp-content/uploads/2019/02/fish.jpg">
-
-			<img class="pic" src="https://www.europarl.europa.eu/resources/library/images/20210914PHT12408/20210914PHT12408_original.jpg"> -->
-
-			<img src="https://i.imgur.com/nIJZ1Z5.png" alt="">
-		</div>
-
-		<p>
-			A preliminary meetup (the first official ARC event!) will be held this coming 
-
-			<span>
-				<a href="https://matthewj12.github.io/wsu-arc/meetings/arc-meeting-1-add-to-calendar.ics">
-					Friday, Sep 2, at 5 PM in Gildemeister 161
-				</a>
-			</span>
-
-			to point prospective members toward the relevant resources, bounce ideas off each other, and -- most importantly -- map some names to faces! The event will be accessible remotely through Zoom via the link above.
-		</p>
-
-		<div>
-			<p id="real-talk" class="italic">
-				<span class="bold"> Real talk</span>: As it stands now, ARC is a cohort of three. That's seven short of the required ten to become an officially registered WSU organization, which would allow us to secure funding, consistent meeting locations, campus advertisement, and official listing as a WSU student organization in the winona.edu club directory. If you're genuinely captivated, even mildly, by what I just described, please don't neglect to contact me and/or attend the aforementioned preliminary meeting so we can formalize our group before the Sep 15 deadline. If you're interested in joining, do it sooner rather than later!
-			</p>
-		</div>
-
-		<div>
-			<a id="a" href="https://www.surveymonkey.com/r/XVZQWXX"><img id="qr-survey" src="https://i.imgur.com/WQNEAcE.png"></a>
-		</div>
 	</div>
-
+	
 </body>
-</html>
