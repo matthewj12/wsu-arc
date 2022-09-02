@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Central Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN=matthewjilk@gmail.com;RSVP=TRUE:mailto:matthewjilk@gmail.com
+CLASS:PUBLIC
+CREATED:20220902T172428Z
+DESCRIPTION:Matthew Jilk is inviting you to a scheduled Zoom meeting. \n\nJ
+	oin Zoom Meeting \nhttps://minnstate.zoom.us/j/92714378191 \n\nMeeting ID:
+	 927 1437 8191 \nPasscode: 874404 \nOne tap mobile \n+19292056099\,\,92714
+	378191# US (New York) \n+13017158592\,\,92714378191# US (Washington DC) \n
+	\nDial by your location \n        +1 929 205 6099 US (New York) \n        
+	+1 301 715 8592 US (Washington DC) \n        +1 309 205 3325 US \n        
+	+1 312 626 6799 US (Chicago) \n        +1 646 931 3860 US \n        +1 719
+	 359 4580 US \n        +1 253 215 8782 US (Tacoma) \n        +1 346 248 77
+	99 US (Houston) \n        +1 386 347 5053 US \n        +1 564 217 2000 US 
+	\n        +1 669 444 9171 US \n        +1 669 900 6833 US (San Jose) \nMee
+	ting ID: 927 1437 8191 \nFind your local number: https://minnstate.zoom.us
+	/u/acuMbSVcQL \n\nJoin by SIP \n92714378191@zoomcrc.com \n\nJoin by H.323 
+	\n162.255.37.11 (US West) \n162.255.36.11 (US East) \n115.114.131.7 (India
+	 Mumbai) \n115.114.115.7 (India Hyderabad) \n213.19.144.110 (Amsterdam Net
+	herlands) \n213.244.140.110 (Germany) \n103.122.166.55 (Australia Sydney) 
+	\n103.122.167.55 (Australia Melbourne) \n149.137.40.110 (Singapore) \n64.2
+	11.144.160 (Brazil) \n149.137.68.253 (Mexico) \n69.174.57.160 (Canada Toro
+	nto) \n65.39.152.160 (Canada Vancouver) \n207.226.132.110 (Japan Tokyo) \n
+	149.137.24.110 (Japan Osaka) \nMeeting ID: 927 1437 8191 \nPasscode: 87440
+	4 \n\n\n
+DTEND;TZID="Central Standard Time":20220909T180000
+DTSTAMP:20220902T172300Z
+DTSTART;TZID="Central Standard Time":20220909T170000
+LAST-MODIFIED:20220902T172428Z
+LOCATION:Gildemeister 161\; https://minnstate.zoom.us/j/92714378191
+ORGANIZER;CN="Jilk, Matthew D":mailto:matthew.jilk@go.winona.edu
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:WSU Animal Rights Club Meeting #1: Preliminary Meetu
+	p
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E0F0622501BCD801000000000000000
+	0100000005D05919E569C2B498C2D11CC7CB37AE7
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n\n<META NAME="Generator" CONTENT="MS Exchange Server 
+	version 16.0.15427.20200">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Convert
+	ed from text/rtf format -->\n\n<P><FONT FACE="Calibri">Matthew Jilk is inv
+	iting you to a scheduled Zoom meeting.</FONT>\n</P>\n\n<P><FONT FACE="Cali
+	bri">Join Zoom Meeting</FONT>\n\n<BR><FONT FACE="Calibri"><A HREF="https:/
+	/minnstate.zoom.us/j/92714378191">https://minnstate.zoom.us/j/92714378191<
+	/A></FONT>\n</P>\n\n<P><FONT FACE="Calibri">Meeting ID: 927 1437 8191</FON
+	T>\n\n<BR><FONT FACE="Calibri">Passcode: 874404</FONT>\n\n<BR><FONT FACE="
+	Calibri">One tap mobile</FONT>\n\n<BR><FONT FACE="Calibri">+19292056099\,\
+	,92714378191# US (New York)</FONT>\n\n<BR><FONT FACE="Calibri">+1301715859
+	2\,\,92714378191# US (Washington DC)</FONT>\n</P>\n\n<P><FONT FACE="Calibr
+	i">Dial by your location</FONT>\n\n<BR><FONT FACE="Calibri">&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 929 205 6099 US (New York)</FONT>\n
+	\n<BR><FONT FACE="Calibri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+	\; +1 301 715 8592 US (Washington DC)</FONT>\n\n<BR><FONT FACE="Calibri">&
+	nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 309 205 3325 US</FONT>
+	\n\n<BR><FONT FACE="Calibri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+	sp\; +1 312 626 6799 US (Chicago)</FONT>\n\n<BR><FONT FACE="Calibri">&nbsp
+	\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 646 931 3860 US</FONT>\n\n
+	<BR><FONT FACE="Calibri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+	 +1 719 359 4580 US</FONT>\n\n<BR><FONT FACE="Calibri">&nbsp\;&nbsp\;&nbsp
+	\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 253 215 8782 US (Tacoma)</FONT>\n\n<BR><
+	FONT FACE="Calibri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 3
+	46 248 7799 US (Houston)</FONT>\n\n<BR><FONT FACE="Calibri">&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 386 347 5053 US</FONT>\n\n<BR><FONT
+	 FACE="Calibri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 564 2
+	17 2000 US</FONT>\n\n<BR><FONT FACE="Calibri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\; +1 669 444 9171 US</FONT>\n\n<BR><FONT FACE="Calibri
+	">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 669 900 6833 US (Sa
+	n Jose)</FONT>\n\n<BR><FONT FACE="Calibri">Meeting ID: 927 1437 8191</FONT
+	>\n\n<BR><FONT FACE="Calibri">Find your local number: <A HREF="https://min
+	nstate.zoom.us/u/acuMbSVcQL">https://minnstate.zoom.us/u/acuMbSVcQL</A></F
+	ONT>\n</P>\n\n<P><FONT FACE="Calibri">Join by SIP</FONT>\n\n<BR><FONT FACE
+	="Calibri">92714378191@zoomcrc.com</FONT>\n</P>\n\n<P><FONT FACE="Calibri"
+	>Join by H.323</FONT>\n\n<BR><FONT FACE="Calibri">162.255.37.11 (US West)<
+	/FONT>\n\n<BR><FONT FACE="Calibri">162.255.36.11 (US East)</FONT>\n\n<BR><
+	FONT FACE="Calibri">115.114.131.7 (India Mumbai)</FONT>\n\n<BR><FONT FACE=
+	"Calibri">115.114.115.7 (India Hyderabad)</FONT>\n\n<BR><FONT FACE="Calibr
+	i">213.19.144.110 (Amsterdam Netherlands)</FONT>\n\n<BR><FONT FACE="Calibr
+	i">213.244.140.110 (Germany)</FONT>\n\n<BR><FONT FACE="Calibri">103.122.16
+	6.55 (Australia Sydney)</FONT>\n\n<BR><FONT FACE="Calibri">103.122.167.55 
+	(Australia Melbourne)</FONT>\n\n<BR><FONT FACE="Calibri">149.137.40.110 (S
+	ingapore)</FONT>\n\n<BR><FONT FACE="Calibri">64.211.144.160 (Brazil)</FONT
+	>\n\n<BR><FONT FACE="Calibri">149.137.68.253 (Mexico)</FONT>\n\n<BR><FONT 
+	FACE="Calibri">69.174.57.160 (Canada Toronto)</FONT>\n\n<BR><FONT FACE="Ca
+	libri">65.39.152.160 (Canada Vancouver)</FONT>\n\n<BR><FONT FACE="Calibri"
+	>207.226.132.110 (Japan Tokyo)</FONT>\n\n<BR><FONT FACE="Calibri">149.137.
+	24.110 (Japan Osaka)</FONT>\n\n<BR><FONT FACE="Calibri">Meeting ID: 927 14
+	37 8191</FONT>\n\n<BR><FONT FACE="Calibri">Passcode: 874404</FONT>\n</P>\n
+	<BR>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-APPTSEQTIME:20220902T172300Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
