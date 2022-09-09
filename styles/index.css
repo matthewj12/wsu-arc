@@ -20,6 +20,10 @@ ul {
 #arc-word-art {
 }
 
+.meeting-time {
+	padding-left: 40px;
+}
+
 .italic {
 	font-style: italic;
 }
@@ -129,6 +133,10 @@ li {
 	margin-top: 50px; */
 }
 
+.crossed-out {
+	text-decoration: line-through;
+}
+
 .bold {
 	font-weight: 600;
 }
@@ -136,7 +144,6 @@ li {
 .emph {
 	font-style: italic;
 }
-
 
 .section {
 	outline: solid black 2px;
