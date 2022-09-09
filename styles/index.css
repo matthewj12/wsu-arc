@@ -127,10 +127,11 @@ li {
 #real-talk {
 	margin: 40px 60px 0;
 	width: 480px;
-	/* position: relative;
-	left: 40px;
-	right: 40px;
-	margin-top: 50px; */
+}
+
+.meeting-time-block {
+	margin-left: 60px;
+	width: 480px;
 }
 
 .crossed-out {
